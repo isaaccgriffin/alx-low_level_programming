@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 /**
  * main - A program in c that prints lowercase alphabets
  * Return: Always 0 (Success)
@@ -7,10 +8,10 @@
 int main(void)
 
 {
-	char c:
+	char C;
 
-	for (c = 'a'; c <= 'z'; C++)
-	putchar(c);
+	for (C = 'a'; C <= 'z'; C++)
+	putchar(C);
 	putchar('\n');
 	return (0);
 }

@@ -1,26 +1,19 @@
 #include "main.h"
-
 /**
  * print_alphabet_x10 - makes 10 times the alphabet
- * Return: void
+ * Return: Always 0 (Success)
  */
-
 void print_alphabet_x10(void)
-
-
 {
-	char c;
-	int i = 0;
+	int i;
+	int j;
 
-	while (i <= 9)
+	for (j = 1; i <= 10; i++)
 	{
-	for (c = 'a'; c <= '2'; c++)
+	for (j = 97; j <= 122; j++)
 	{
-	_putchar(c);
-
+	_putchar(j);
+	}
 	_putchar('\n');
-	i++;
 	}
-	}
-
 }

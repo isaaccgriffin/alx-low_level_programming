@@ -184,7 +184,7 @@ void print_abi(unsigned char *e_ident)
 
 /**
  * print_type - It prints  type ofELF header
- * @e_type: Type ELF 
+ * @e_type: Type ELF
  * @e_ident: A pointer to an array
  */
 void print_type(unsigned int e_type, unsigned char *e_ident)
